@@ -20,7 +20,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -50,12 +50,12 @@
 
 #todo__list,
 #compl__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .item, #todo__title, #compl__title {
-  list-style:none;
+  list-style: none;
 }
 
 .task[type="text"],
@@ -63,7 +63,7 @@
 .add__button,
 .edit,
 .delete {
-  outline:none;
+  outline: none;
 }
 
 .add__button,
@@ -172,14 +172,14 @@
 
 /* Edit Task */
 .item .task[type=text] {
-  display:none;
+  display: none;
 }
 
 .item.item_edit_mode .task[type=text] {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .item.item_edit_mode #item__text {
-  display:none;
+  display: none;
 }
