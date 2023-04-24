@@ -54,7 +54,9 @@
   padding: 0px;
 }
 
-.item, #todo__title, #compl__title {
+.item,
+#todo__title,
+#compl__title {
   list-style: none;
 }
 
